@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  国际化
+
+  Created by WuChunlong on 2016/12/26.
+  Copyright © 2016年 zpon. All rights reserved.
+*/
+
+"text" = "(⊙o⊙)哦, 我的天哪!";
+
+//CFBundleDisplayName = "世界 你好"; // 这里设置无效

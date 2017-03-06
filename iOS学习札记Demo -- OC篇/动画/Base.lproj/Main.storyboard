@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="qwQ-EN-m3c">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--CAAnimation动画-->
+        <scene sceneID="oNL-HP-4s5">
+            <objects>
+                <viewController title="CAAnimation动画" id="PXu-Xq-RUi" customClass="CAAnimationVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MFz-Ao-lFU"/>
+                        <viewControllerLayoutGuide type="bottom" id="xCN-XO-2s3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="b91-4V-F0N">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="CAAnimation动画" id="TLH-F5-JHT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PpU-WR-jp6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1852" y="151"/>
+        </scene>
+        <!--UIView 动画-->
+        <scene sceneID="N7T-OQ-s9v">
+            <objects>
+                <viewController title="UIView 动画" id="YVo-G8-Cag" customClass="UIViewAnimationVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7P3-Bh-GPV"/>
+                        <viewControllerLayoutGuide type="bottom" id="QBj-fk-Jqc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xmJ-SO-E6W">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="UIView 动画" id="TZd-zB-4US"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KfS-sM-X7y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1801" y="-556"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="cDr-QV-wBH">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="qwQ-EN-m3c" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="MEk-Yf-gTE">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="YVo-G8-Cag" kind="relationship" relationship="viewControllers" id="DP7-RF-KFF"/>
+                        <segue destination="PXu-Xq-RUi" kind="relationship" relationship="viewControllers" id="Vkd-Xb-zKi"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vfh-40-ucJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="994" y="-32"/>
+        </scene>
+    </scenes>
+</document>

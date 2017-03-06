@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  国际化
+
+  Created by WuChunlong on 2016/12/26.
+  Copyright © 2016年 zpon. All rights reserved.
+*/
+
+CFBundleDisplayName = "世界 你好";
